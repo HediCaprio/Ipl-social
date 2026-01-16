@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "typescript": "^5.9.3"
+  },
+  "name": "ipl-social",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000i\u0000p\u0000l\u0000-\u0000s\u0000o\u0000c\u0000i\u0000a\u0000l\u0000\r\u0000 \u0000",
+  "main": "jest.config.js",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HediCaprio/ipl-social.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HediCaprio/ipl-social/issues"
+  },
+  "homepage": "https://github.com/HediCaprio/ipl-social#readme"
+}
