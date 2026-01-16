@@ -23,4 +23,8 @@ describe('Email Validation Logic', () => {
         expect(validateEmail('test@vinci.')).toBe(false);
     });
 
+    test('devrait accepter un email valide', () => {
+        expect(validateEmail('test@vinci.be')).toBe(true);
+    });
+
 });
