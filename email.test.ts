@@ -14,4 +14,9 @@ describe('Email Validation Logic', () => {
         expect(validateEmail('@vinci.be')).toBe(false);
         expect(validateEmail('test@')).toBe(false);
     });
+
+    test('devrait refuser si pas de point dans le domaine', () => {
+        expect(validateEmail('test@vinci')).toBe(false);
+    });
+    
 });
